@@ -1,5 +1,7 @@
 class Data():
-  
+    
+    # Formatting rules:   https://matplotlib.org/stable/tutorials/text/mathtext.html
+    #
     # Write equations like this inside braces of self.equations
     #
     #    1 : r'$___INSERT FORMATTED EQUATION HERE___$',
