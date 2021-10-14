@@ -5,7 +5,7 @@ https://matplotlib.org/stable/tutorials/text/mathtext.html
 
 write them in this format:
 
-### variable = r'$z=\frac{x}{y^2}$'
+### 1 : r'$z=\frac{x}{y^2}$'
 
 
 which would look like
