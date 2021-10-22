@@ -51,9 +51,9 @@ if __name__ == '__main__':
 
     for num in range(len(d1.equations)):
 
-        img = 'img'+str(num)+'.png'
+        img = 'img'+str(num+1)+'.png'
 
-        image_bytes = render_latex(d1.equations[num], format_='png')
+        image_bytes = render_latex(d1.equations[num+1], format_='png')
 
         with open(img, 'wb') as image_file:
             image_file.write(image_bytes)
@@ -87,9 +87,9 @@ if __name__ == '__main__':
 
     """for num in range(len(d3.equations)):
 
-        img = 'img'+str(num)+'.png'
+        img = 'img'+str(num+1)+'.png'
 
-        image_bytes = render_latex(d3.equations[num], format_='png')
+        image_bytes = render_latex(d3.equations[num+1], format_='png')
 
         with open(img, 'wb') as image_file:
             image_file.write(image_bytes)"""
