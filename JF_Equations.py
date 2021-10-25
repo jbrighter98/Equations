@@ -22,20 +22,20 @@ class Data():
     def __init__(self):
         self.equations = {
             
-            r'$\tau = \mu \frac{dV}{dy}$'
-            r'$L = N\mathrm{cos}\alpha - A\mathrm{sin}\alpha$'
-            r'$D = N\mathrm{sin}\alpha + A\mathrm{cos}\alpha$'
-            r'$q = \frac{1}{2}\rhoV^{2}$'
-            r'$dp = -g \rho dy$'
+            1 : "r'$\tau=\mu\frac{dV}{dy}$'",
+            2 : "r'$L= N\mathrm{cos}\alpha-A\mathrm{sin}\alpha$'",
+            3 : "r'$D= N\mathrm{sin}\alpha+A\mathrm{cos}\alpha$'",
+            4 : "r'$q=\frac{1}{2}\rhoV^{2}$'",
+            5 : "r'$dp=-g\rhody$'",
             
         }
 
         self.names = {
             
-            "Shear Stress",
-            "Lift",
-            "Drag",
-            "Dynamic Pressure",
-            "Hydrostatic Equation"
+            1: "Shear Stress",
+            2 : "Lift",
+            3 : "Drag",
+            4 : "Dynamic Pressure",
+            5 : "Hydrostatic Equation"
             
         }
