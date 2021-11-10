@@ -15,6 +15,13 @@ class Data():
     #    2 : "Name of Equation 2",
     #    ...
     #
+    # Lastly for desctription, do the same as the names but if you want to start a new line, start the new line with \n like
+    #
+    #   1 : "This is the first line
+    #       \nThis is the second line
+    #       \nThis is the third line",
+    #   2 : "....",
+    #
     # DON'T FORGET COMMAS!!!
     # THE LAST ONE IN THE LISTS DON'T GET COMMAS
     
@@ -58,3 +65,6 @@ class Data():
             16 : "General Potential Energy", 
         }
 
+        self.des = {
+            
+        }
